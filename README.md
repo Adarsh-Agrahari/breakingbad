@@ -11,27 +11,27 @@ API URL: [Breaking Bad API](https://breakingbadapi.com/)
 - Ability to search for **Breaking Bad** or **Better Call Saul** Series Characters Catagorically
 - Ability to see the quotes of all the characters seperately.
 - Good User Accessbile UI follows Material Design Guidelines
-- Optimized Code Design for performance. Priority has been given to keep bundle size minimum by reusuing existing components whereever possible
+- Optimized Code Design for performance. Priority has been given to keep bundle size minimum by reusuing existing components where ever possible
 - Uses Redis Cache to store API responses which gives a snappy experience.
 
 ## Design Goals
 
 ### 1. First Page
 
-[x] Listing of all the breaking bad characters on home page - List of all characters.
++ Listing of all the breaking bad characters on home page - List of all characters.
 
-[x] Each item in the list has
++ Each item in the list has
 
-- Name
-- Occupation
-- DOB
-- Status of character
+  - Name
+  - Occupation
+  - DOB
+  - Status of character
 
-[x] Each item in this list is a clickable link that directs to the second page. (See point 2) - List have pagination, a page has a maximum of 10 characters.
++ Each item in this list is a clickable link that directs to the second page. (See point 2) - List have pagination, a page has a maximum of 10 characters.
 
-[x] One is able to apply filter on the list based on to Category of character. (Breaking Bad or/and Better Call Saul)
++ One is able to apply filter on the list based on to Category of character. (Breaking Bad or/and Better Call Saul)
 
-[x] One is able to search the name of any character in the list.
++ One is able to search the name of any character in the list.
 
 ### 2. Second Page
 
